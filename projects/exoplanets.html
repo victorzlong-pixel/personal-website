@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extragalactic Exoplanets · Victor Long</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="wrap">
+            <a class="brand" href="../index.html">Victor Long</a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav id="site-nav" class="nav-links" aria-label="Primary">
+                <a href="../index.html#about">About</a>
+                <a href="../projects.html" aria-current="page">Portfolio</a>
+                <a href="../index.html#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="project-page wrap">
+        <a class="back-home" href="../projects.html">← Projects</a>
+        <header class="project-header">
+            <p class="kicker">X-ray astronomy</p>
+            <h1>Searching for Extragalactic Exoplanets, Eclipses, and Flares in the Triangulum Galaxy by means of X-ray Binaries</h1>
+            <p class="project-dates">June 2024 – August 2024</p>
+        </header>
+
+        <div class="gallery">
+            <img src="../images/eclipse.png" alt="X-ray eclipse light curve">
+            <img src="../images/m33.jpg" alt="Triangulum Galaxy">
+            <img src="../images/userinterface.png" alt="Catalog browsing interface">
+        </div>
+
+        <div class="summary">
+            <h2>Summary</h2>
+            <p>
+                Most known exoplanet candidates lie within a few thousand light-years of Earth. Dust and other intervening material
+                scatter visible light, which limits how far those searches can reach. I instead searched X-ray binary systems, where
+                the higher-energy emission propagates more readily through that material, for eclipses and flares that could indicate
+                extragalactic exoplanets.
+            </p>
+            <p>
+                I wrote a program and interface for browsing Chandra X-ray Observatory catalogs of X-ray binaries, focused on the
+                Triangulum Galaxy (M33), one of the most X-ray-active nearby galaxies. Across more than 1,000 catalogued sources,
+                the search identified exoplanet candidates more than ten times farther than previous candidates.
+            </p>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap">
+            <p>Victor Long</p>
+            <p><a href="mailto:vlong20@mit.edu">vlong20@mit.edu</a></p>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

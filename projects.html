@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio · Victor Long</title>
+    <meta name="description" content="Selected projects by Victor Long in aerodynamics, laser communication, lunar environments, and x-ray astronomy.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="wrap">
+            <a class="brand" href="index.html">Victor Long</a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav id="site-nav" class="nav-links" aria-label="Primary">
+                <a href="index.html#about">About</a>
+                <a href="projects.html" aria-current="page">Portfolio</a>
+                <a href="index.html#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-intro">
+            <div class="wrap">
+                <p class="kicker">Portfolio</p>
+                <h1>Projects</h1>
+                <p>Work in aerodynamics, laser communication, lunar environments, and x-ray astronomy.</p>
+            </div>
+        </section>
+
+        <div class="wrap">
+            <div class="portfolio-grid">
+                <a class="project-card" href="projects/fsae.html">
+                    <img src="images/finishedwing.png" alt="Rear wing on the MIT Motorsports car">
+                    <div class="card-body">
+                        <p class="card-org">MIT Motorsports</p>
+                        <h2>Rear Wing and Drag Reduction System</h2>
+                        <span class="card-link">View project</span>
+                    </div>
+                </a>
+
+                <a class="project-card" href="projects/portel.html">
+                    <img src="images/backend-1.png" alt="PorTel optical backend">
+                    <div class="card-body">
+                        <p class="card-org">MIT STAR Lab</p>
+                        <h2>PorTel</h2>
+                        <span class="card-link">View project</span>
+                    </div>
+                </a>
+
+                <a class="project-card" href="projects/lunar.html">
+                    <img src="images/ConOps_Diagram.jpg" alt="Concept of operations diagram for lunar landings">
+                    <div class="card-body">
+                        <p class="card-org">MIT ESL</p>
+                        <h2>Evaluating Environmental Effects of Long-Duration Human Activities on the Moon</h2>
+                        <span class="card-link">View project</span>
+                    </div>
+                </a>
+
+                <a class="project-card" href="projects/exoplanets.html">
+                    <img src="images/eclipse.png" alt="X-ray light curve showing an eclipse">
+                    <div class="card-body">
+                        <p class="card-org">X-ray astronomy</p>
+                        <h2>Searching for Extragalactic Exoplanets, Eclipses, and Flares in the Triangulum Galaxy</h2>
+                        <span class="card-link">View project</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap">
+            <p>Victor Long</p>
+            <p><a href="mailto:vlong20@mit.edu">vlong20@mit.edu</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

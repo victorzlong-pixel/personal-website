@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PorTel · Victor Long</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="wrap">
+            <a class="brand" href="../index.html">Victor Long</a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav id="site-nav" class="nav-links" aria-label="Primary">
+                <a href="../index.html#about">About</a>
+                <a href="../projects.html" aria-current="page">Portfolio</a>
+                <a href="../index.html#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="project-page wrap">
+        <a class="back-home" href="../projects.html">← Projects</a>
+        <header class="project-header">
+            <p class="kicker">MIT STAR Lab</p>
+            <h1>Portable Telescope for Lasercom (PorTel)</h1>
+            <p class="project-dates">February 2026 – Present</p>
+        </header>
+
+        <div class="gallery">
+            <img src="../images/backend-1.png" alt="Optical backend">
+            <img src="../images/currentbackend.png" alt="Current backend assembly">
+            <img src="../images/outdoortest.png" alt="Outdoor telescope test">
+        </div>
+
+        <div class="summary">
+            <h2>Summary</h2>
+            <p>
+                CubeSats are typically limited by how they return data to the ground. Most still rely on radio links. Laser communication
+                offers higher data rates, a more compact terminal, and fewer regulatory constraints, but it requires the ground station
+                to acquire and track the beam with high precision. This project is a portable optical ground station that can follow
+                CubeSat motion and be transported between sites.
+            </p>
+            <p>
+                The station is built on a Celestron CPC1100 with a custom backend that filters and detects lasers at 1537 nm and 1563 nm.
+                A 320CSX short-wave infrared camera and an avalanche photodiode (APD) image the field and close the loop that keeps the
+                target centered in the frame. Because both detectors are sensitive to optical aberrations, I traced the backend path in
+                Optiland and on an optical table, placing lenses and mirrors so the signal focuses to within one micrometer. A
+                microcontroller board with a beacon transmitter gives the CubeSat a reference for pointing back to Earth. Calibration
+                against the International Space Station and catalogued stars produced a preliminary 23% improvement in data precision
+                and relay speed.
+            </p>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap">
+            <p>Victor Long</p>
+            <p><a href="mailto:vlong20@mit.edu">vlong20@mit.edu</a></p>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

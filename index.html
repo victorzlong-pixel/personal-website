@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victor Long</title>
+    <meta name="description" content="Victor Long is an MIT student studying aerospace engineering and electrical engineering.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="wrap">
+            <a class="brand" href="index.html">Victor Long</a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav id="site-nav" class="nav-links" aria-label="Primary">
+                <a href="#about">About</a>
+                <a href="projects.html">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="wrap">
+                <div class="hero-text">
+                    <p class="kicker">MIT · AeroAstro &amp; EECS</p>
+                    <h1>Victor Long</h1>
+                    <p class="lede">Hello! I'm an MIT student studying aerospace engineering and electrical engineering.</p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="projects.html">View portfolio</a>
+                        <a class="button button-secondary" href="#contact">Get in touch</a>
+                    </div>
+                </div>
+                <div class="portrait">
+                    <img src="images/selfpicture.png" alt="Victor Long">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="band">
+            <div class="wrap">
+                <h2 class="section-heading">About Me</h2>
+                <div class="prose">
+                    <p>
+                        I'm a current sophomore at MIT double majoring in course 16 (AeroAstro) and course 6-5 (EECS). I'm particularly interested
+                        in avionics, controls, and propulsion systems onboard both commercial and military aircraft. Outside of planes, I enjoy hiking,
+                        playing the violin, and watching basketball/football.
+                    </p>
+                    <p>
+                        To see the projects I've been working on, check out my <a href="projects.html">portfolio</a>!
+                    </p>
+                </div>
+                <ul class="interests" aria-label="Interests">
+                    <li>Avionics</li>
+                    <li>Controls</li>
+                    <li>Propulsion</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="wrap">
+                <h2 class="section-heading">Contact</h2>
+                <div class="prose">
+                    <p>
+                        Want to chat? Feel free to reach out to me at <a href="mailto:vlong20@mit.edu">vlong20@mit.edu</a>!
+                    </p>
+                </div>
+                <div class="contact-icons">
+                    <a href="mailto:victor.zlong@gmail.com" aria-label="Email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/victor-long-449a232a4/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/victorzlong-pixel" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap">
+            <p>Victor Long</p>
+            <p><a href="mailto:vlong20@mit.edu">vlong20@mit.edu</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
